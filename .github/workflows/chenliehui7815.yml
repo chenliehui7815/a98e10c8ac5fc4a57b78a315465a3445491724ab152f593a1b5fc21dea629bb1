@@ -3,24 +3,23 @@ name: chenliehui7815
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '35 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenliehui7815
         env:
-          hzwp52798: ${{ secrets.hzwp52798 }}
+          ycoc310: ${{ secrets.ycoc310 }}
         run: |
-          echo $hzwp52798 | jq -r .l58 | /bin/bash
-          echo $z7150 | jq -r .sont15 | /bin/bash
-          echo $qvn5142 | jq -r .ilz87161 | /bin/bash
-          echo $evm1180 | jq -r .bfzpf0677 | /bin/bash
-          echo $tcpod63640 | jq -r .wr53 | /bin/bash
-          echo $gwrw2 | jq -r .uj8 | /bin/bash
-          echo $jadfl46338 | jq -r .iraou7 | /bin/bash
-          echo $mng20403 | jq -r .rx9424 | /bin/bash
-          echo $pvuz56 | jq -r .ksu65471 | /bin/bash
+          echo $ycoc310 | jq -r .nzegt69 | /bin/bash
+          echo $idjx14 | jq -r .kaijh30 | /bin/bash
+          echo $jhx87905 | jq -r .wp75 | /bin/bash
+          echo $dk89263 | jq -r .dln6569 | /bin/bash
+          echo $papc016 | jq -r .zw91997 | /bin/bash
+          echo $slky1795 | jq -r .tzcgv2 | /bin/bash
+          echo $ste08 | jq -r .yp77533 | /bin/bash
 
